@@ -1,6 +1,6 @@
 namespace FactoryPattern;
 
-public interface ICallable
+public interface IVehicle
 {
-    void Build();
+    public void Drive();
 }

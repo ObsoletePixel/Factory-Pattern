@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("How many wheels does your vehicle have?");
+            int wheelNumber =  int.Parse(Console.ReadLine());
+            
+            IVehicle vehicle = VehicleFactory.BuildVehicle(wheelNumber);
+            vehicle.Drive();
         }
     }
 }

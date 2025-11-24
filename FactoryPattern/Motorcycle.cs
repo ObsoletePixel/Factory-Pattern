@@ -1,9 +1,9 @@
 namespace FactoryPattern;
 
-public class Car : IVehicle
+public class Motorcycle : IVehicle
 {
     public void Drive()
     {
-        
+        Console.WriteLine("Strap in!");
     }
 }
